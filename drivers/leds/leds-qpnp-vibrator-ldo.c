@@ -385,7 +385,6 @@ static int qpnp_vib_parse_dt(struct device *dev, struct vib_ldo_chip *chip)
 			ret);
 		return ret;
 	}
-
 	chip->disable_overdrive = of_property_read_bool(dev->of_node,
 					"qcom,disable-overdrive");
 
